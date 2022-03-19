@@ -63,6 +63,11 @@ def visualize_tweets(tweet_df):
     fig.show()
 
 
-tweet_df = read_file("final_tweets_test.txt")
-tweet_df["tweet"] = tweet_df["tweet"].apply(clean_tweet)
-visualize_tweets(tweet_df)
+def preprocess_tweets(filename):
+    tweet_df = read_file(filename)
+    tweet_df["tweet"] = tweet_df["tweet"].apply(clean_tweet)
+    return tweet_df
+
+
+# tweet_df = preprocess_tweets("final_tweets_test.txt")
+# visualize_tweets(tweet_df)
