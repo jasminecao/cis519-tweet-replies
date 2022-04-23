@@ -1,6 +1,6 @@
 # Predicting the Sentiment of Tweet Replies
 
-## CIS519 Spring 2020 - Eileen Deng, Richard Yeh, Jasmine Cao
+## CIS519 Spring 2022 - Eileen Deng, Richard Yeh, Jasmine Cao
 
 This project investigates the sentiment of tweet replies given a source tweet.
 The project uses data from
