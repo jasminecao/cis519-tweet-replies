@@ -1,0 +1,12 @@
+# Predicting the Sentiment of Tweet Replies
+
+## CIS519 Spring 2020 - Eileen Deng, Richard Yeh, Jasmine Cao
+
+This project investigates the sentiment of tweet replies given a source tweet.
+The project uses data from
+[this dataset](https://www.kaggle.com/soroosharasteh/retweet/), which contains
+Tweet IDs and their corresponding reply sentiment. The data is contained in the
+files `data/test_gold.txt` and `data/train_final_label.txt`. The file
+`tweet-scraper.py` contains code used to scrape these tweets from the Twitter
+API. To use the file, one will need a TwitterAPI key and access token.
+
