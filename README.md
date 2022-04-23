@@ -8,5 +8,6 @@ The project uses data from
 Tweet IDs and their corresponding reply sentiment. The data is contained in the
 files `data/test_gold.txt` and `data/train_final_label.txt`. The file
 `tweet-scraper.py` contains code used to scrape these tweets from the Twitter
-API. To use the file, one will need a TwitterAPI key and access token.
-
+API. To use the file, one will need a TwitterAPI key and access token. The final
+labeled source tweets are stored in the file `data/final_tweets_test.txt` and
+`data/final_tweets_training.txt`.
