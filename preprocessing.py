@@ -20,7 +20,6 @@ def read_file(filename):
     return tweet_df
 
 
-# TODO: replace contractions? emojis?
 def clean_tweet(tweet):
     """
     tweet: string
@@ -67,7 +66,3 @@ def preprocess_tweets(filename):
     tweet_df = read_file(filename)
     tweet_df["tweet"] = tweet_df["tweet"].apply(clean_tweet)
     return tweet_df
-
-
-# tweet_df = preprocess_tweets("final_tweets_test.txt")
-# visualize_tweets(tweet_df)

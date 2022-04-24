@@ -11,3 +11,6 @@ files `data/test_gold.txt` and `data/train_final_label.txt`. The file
 API. To use the file, one will need a TwitterAPI key and access token. The final
 labeled source tweets are stored in the file `data/final_tweets_test.txt` and
 `data/final_tweets_training.txt`.
+
+The code for the baseline classifier, random forest classifier, and TextCNN
+model is included in the notebook `predictor.ipynb`.
