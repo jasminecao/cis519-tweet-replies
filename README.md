@@ -14,4 +14,4 @@ labeled source tweets are stored in the file `data/final_tweets_test.txt` and
 
 The code for the baseline classifier, random forest classifier, and TextCNN
 model is included in the notebook `predictor.ipynb`. The code for the BERT model
-and variants of the BERT model are included in `BERT_model.ipynb`.
+and variants of the BERT model are included in `bert-model.ipynb, albert-model.ipynb, robert-model.ipynb, debert-model.ipynb`.
